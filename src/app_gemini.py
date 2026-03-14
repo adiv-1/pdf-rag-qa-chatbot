@@ -102,7 +102,7 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Chat with PDFs", page_icon=":robot_face:")
+    st.set_page_config(page_title="Chat with PDFs", page_icon="🤖")
     st.write(css, unsafe_allow_html=True)
 
     if "conversation" not in st.session_state:
@@ -110,7 +110,7 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header("Chat with PDFs :robot_face:")
+    st.header("Chat with PDFs 🤖")
     user_question = st.text_input("Ask questions about your documents:")
     if user_question:
         handle_userinput(user_question)
