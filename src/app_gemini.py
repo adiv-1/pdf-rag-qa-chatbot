@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 from bs4 import BeautifulSoup
+
 from google import genai
 from langchain_core.embeddings import Embeddings
 from langchain_text_splitters import CharacterTextSplitter
