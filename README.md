@@ -5,6 +5,7 @@ The chatbot was implemented three different ways to compare approaches:
 1. OpenAI API implementation
 2. Google Gemini API exploration
 3. Open-source local implementation using Ollama
+
 The application interface is built using Streamlit, allowing users to upload documents and interact with the chatbot through a web interface.
 
 ## Project Structure
@@ -60,11 +61,6 @@ venv\Scripts\activate        # Windows
 3. Install Python Dependencies
 ```
 pip install -r requirements.txt
-```
-
-5. Install Ollama 
-```
-brew install ollama 
 ```
 
 ## Running the Chatbot 
